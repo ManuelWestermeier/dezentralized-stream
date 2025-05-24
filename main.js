@@ -75,7 +75,7 @@ socket.onmessage = async ({ data }) => {
 
 async function start() {
   await initKeys();
-  setInterval(streamData, 2000);
+  setInterval(streamData, 10000);
 }
 
 document.getElementById('startStream').onclick = start;
