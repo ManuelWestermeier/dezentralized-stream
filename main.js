@@ -1,6 +1,6 @@
 import { generateKeyPair, signData, verifyData, getPublicKeyHash } from './crypto.js';
 
-const socket = new WebSocket('ws://localhost:8080');
+const socket = new WebSocket('wss://dezentralized-stream.onrender.com ');
 const peerConnections = new Map();
 const dataChannels = new Map();
 let localKeyPair;
