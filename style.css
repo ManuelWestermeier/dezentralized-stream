@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+#controls {
+  margin-bottom: 20px;
+}
+
+button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: none;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+#streamData {
+  background: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  max-height: 300px;
+  overflow-y: auto;
+}
